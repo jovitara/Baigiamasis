@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.infotechno-img-one {
+  position: absolute;
+  padding-top: 10px;
+}
+
+.infotechno-img-two {
+  position: relative;
+  z-index: 1;
+}
+.infotechno-bg {
+  background: #f4efe9 none repeat scroll 0% 0%;
+}
+.infotechno-hero-text h6 {
+  color: #086ad8;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
