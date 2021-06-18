@@ -1,0 +1,13 @@
+body {
+  background-color: grey;
+}
+img {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.col-6 {
+  margin: 0 auto;
+}
+.bit-slider-contact img{
+    padding: 5px;
+}
