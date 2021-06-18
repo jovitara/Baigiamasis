@@ -21,3 +21,43 @@ body {
   font-weight: 500;
   margin-bottom: 20px;
 }
+.left-arrow {
+  font-size: 64px;
+  color: gray;
+}
+.right-arrow {
+  font-size: 64px;
+  color: gray;
+}
+
+#carouselExampleControlsTwo {
+  margin: 0 auto;
+  background: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.testimonial-slider-single {
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.author-info img {
+  border-radius: 100%;
+}
+.author-info {
+  margin-top: 2rem;
+}
+.carousel {
+  margin-top: 20px;
+}
+.carousel-two {
+  margin-top: 20px;
+  background: #f4efe9 none repeat scroll 0% 0%;
+  margin-bottom: 20px;
+}
+.single-slider-text {
+  color: #002fa6;
+}
+.testimonial-slider-single h6 {
+  font-weight: bold;
+}
