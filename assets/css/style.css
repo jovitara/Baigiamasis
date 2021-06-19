@@ -47,6 +47,7 @@ body {
 .author-info {
   margin-top: 2rem;
 }
+
 .carousel {
   margin-top: 20px;
 }
@@ -60,4 +61,17 @@ body {
 }
 .testimonial-slider-single h6 {
   font-weight: bold;
+}
+a{
+  list-style: none;
+}
+.brand-logo-hover{
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.brand-logo-hover, .brand-logo{
+  width: 100%;
 }
