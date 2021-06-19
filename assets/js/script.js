@@ -1,21 +1,35 @@
-$(document).ready(function () {
-    // Priskiriame HTML elementui, slick functionaluma
-    $(".bit-slider-home").slick({
-        slidesToShow: 1,
-        dots: true,
-      });
-});
-$(document).ready(function () {
-    // Priskiriame HTML elementui, slick functionaluma
-    $(".bit-slider-profile").slick({
-        slidesToShow: 2,
-        dots: true,
-      });
-});
-$(document).ready(function () {
-    // Priskiriame HTML elementui, slick functionaluma
-    $(".bit-slider-contact").slick({
+$('.responsive').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
         slidesToShow: 3,
-        dots: true,
-      });
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
