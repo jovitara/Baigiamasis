@@ -21,6 +21,11 @@ body {
   font-weight: 500;
   margin-bottom: 20px;
 }
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
 .left-arrow {
   font-size: 64px;
   color: gray;
@@ -29,6 +34,7 @@ body {
   font-size: 64px;
   color: gray;
 }
+
 
 #carouselExampleControlsTwo {
   margin: 0 auto;
@@ -74,6 +80,9 @@ a{
   opacity: 0;
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+.img-fluid:hover{
+  opacity: 1;
+}
 
 .brand-logo-single {
   position: relative;
@@ -81,4 +90,7 @@ a{
 
 .brand-logo-hover, .brand-logo{
   width: 100%;
+}
+.brand-logo:hover .img-fluid{
+opacity: 1;
 }
