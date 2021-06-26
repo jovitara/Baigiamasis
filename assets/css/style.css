@@ -68,16 +68,19 @@ body {
 .testimonial-slider-single h6 {
   font-weight: bold;
 }
-a{
+a {
   list-style: none;
 }
-.brand-logo-hover{
+.brand-logo-hover {
   position: absolute;
+<<<<<<< Updated upstream
   top: 0;
   left: 0;
   margin-top: 0;
   margin-left: 0;
   opacity: 0;
+=======
+>>>>>>> Stashed changes
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .img-fluid:hover{
@@ -88,9 +91,13 @@ a{
   position: relative;
 }
 
-.brand-logo-hover, .brand-logo{
+.brand-logo-hover,
+.brand-logo {
   width: 100%;
 }
+<<<<<<< Updated upstream
 .brand-logo:hover .img-fluid{
 opacity: 1;
 }
+=======
+>>>>>>> Stashed changes
